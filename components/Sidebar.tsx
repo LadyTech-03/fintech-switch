@@ -19,10 +19,16 @@ const Sidebar = ({ user }: SiderbarProps) => {
             src="/icons/logo.svg"
             width={34}
             height={34}
-            alt="Horizon logo"
-            className="size-[24px] max-xl:size-14"
+            alt="CreatiPay logo"
+            className="size-[34px] max-xl:size-14"
           />
-          <h1 className="sidebar-logo">Horizon</h1>
+          <Image 
+            src="/icons/logo_1.svg"
+            width={120}
+            height={120}
+            alt="CreatiPay logo"
+          />
+          {/* <h1 className="sidebar-logo">CreatiPay</h1> */}
         </Link>
 
         {sidebarLinks.map((item) => {

@@ -88,11 +88,17 @@ const AuthForm = ({ type }: { type: string }) => {
           <Link href="/" className="cursor-pointer flex items-center gap-1">
             <Image 
               src="/icons/logo.svg"
-              width={34}
-              height={34}
-              alt="Horizon logo"
+              width={32}
+              height={32}
+              alt="CreatiPay logo"
             />
-            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">Horizon</h1>
+            <Image 
+              src="/icons/logo_1.svg"
+              width={120}
+              height={120}
+              alt="CreatiPay logo"
+            />
+            {/* <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">CreatiPay</h1> */}
           </Link>
 
           <div className="flex flex-col gap-1 md:gap-3">
